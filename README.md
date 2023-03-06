@@ -3,6 +3,7 @@
 Gera uma senha forte, com letras, números e símbolos.
 
 ### Github Pages
+https://u-dani.github.io/generate-strong-password/
 
 -- link here
 
