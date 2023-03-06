@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerar senha forte</title>
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <h1 class="main-title">Gerar senha forte</h1>
+    
+    <form class="js-password-options-form">
+        <label>
+            <span class="text-characters-number js-text-characters-number">input range value</span>
+            <input type="range" class="characters-number js-characters-number" min="8" max="20" />
+        </label>
+
+        <label for="">
+            <input type="checkbox" class="js-uppercase-letter-checkbox" checked />
+            <span>Letras maiúsculas</span>
+        </label>
+
+        <label for="">
+            <input type="checkbox" class="js-lowercase-letter-checkbox" checked />
+            <span>Letras minúsculas</span>
+        </label>
+
+        <label for="">
+            <input type="checkbox" class="js-numbers-checkbox" checked />
+            <span>Números</span>
+        </label>
+
+        <label for="">
+            <input type="checkbox" class="js-symbols-checkbox" checked />
+            <span>Símbolos</span>
+        </label>
+    </form>
+
+    <div>
+        <span>Senha: </span>
+        <span class="show-password js-show-password">senha</span>
+        <button class="btn js-btn-new-password">Nova senha</button>
+    </div>
+
+</body>
+</html>
